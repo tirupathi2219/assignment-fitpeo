@@ -1,8 +1,11 @@
-import styles from './App.module.scss'
+import "bootstrap/dist/css/bootstrap.min.css";
+
 import Dashboard from './components/Dashboard';
 
+import styles from './App.module.scss'
+
 function App() {
-  
+
   const handleChange = () => {
     console.log('6== change');
   }
