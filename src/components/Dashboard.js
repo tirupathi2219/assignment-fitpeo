@@ -1,20 +1,21 @@
-// import styles from '..App.module.scss'
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import styles from './Dashboard.scss'
 
 function Dashboard() {
   return (
     <div>
       <div>
-        <i className="bi bi-hexagon"></i> <span>Dashboard</span>
+      <i class="bi bi-nut"></i> <span>Dashboard</span>
       </div>
-      <div className="d-flex flex-column justify-content-start">
-        <div> Dashboard</div>
-        <div> Product</div>
-        <div> Customers</div>
-        <div> Income</div>
-        <div> Promote</div>
-        <div> Help</div>
+      <div className={` ${styles.navigation} d-flex flex-column  align-items-start`}>
+        <div><i class="bi bi-bank"></i>&nbsp; Dashboard</div>
+        <div> <i class="bi bi-boxes"></i>&nbsp; Product <i class="bi bi-chevron-right"></i></div>
+        <div><i class="bi bi-person-square"></i>&nbsp; Customers <i class="bi bi-chevron-right"></i></div>
+        <div><i class="bi bi-headset"></i>&nbsp; Income <i class="bi bi-chevron-right"></i></div>
+        <div><i class="bi bi-percent"></i>&nbsp; Promote <i class="bi bi-chevron-right"></i> </div>
+        <div><i class="bi bi-chat-square-quote"></i>&nbsp; Help <i class="bi bi-chevron-right"></i></div>
+
       </div>
     </div>
   );
