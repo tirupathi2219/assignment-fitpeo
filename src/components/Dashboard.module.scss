@@ -24,6 +24,10 @@
 
     }
 
+    .dashboard_footer_container {
+        position: relative;
+        min-height: 358px;
+
     .dashboard_footer {
         display: flex;
         justify-content: space-between;
@@ -54,11 +58,14 @@
             }
         }
 
-        .avatar {
-            border-radius: 50%;
-            width: 25px;
-            height: 25px;
-            margin-right: 10px;
+            .avatar {
+                border-radius: 50%;
+                width: 25px;
+                height: 25px;
+                margin-right: 10px;
+            }
         }
+
     }
+
 }
