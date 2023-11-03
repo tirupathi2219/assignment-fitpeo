@@ -1,0 +1,58 @@
+.sales_container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 25px;
+
+    .sales_subContainer {
+        display: flex;
+        background-color: white;
+        border-radius: 4px;
+        padding: 10px;
+        align-items: center;
+        gap: 12px;
+        width: 23%;
+
+        >div p {
+            margin-bottom: 0px;
+        }
+
+        .icon {
+            border-radius: 50%;
+            padding: 27px 32px;
+
+            &.icon0 {
+                background-color: #dfffec;
+            }
+            &.icon1 {
+                background-color: #e6dbff;
+            }
+            &.icon2 {
+                background-color: #cdf2fe;
+            }
+            &.icon3 {
+                background-color: #febae1;
+            }
+        }
+
+        .stName {
+            color: #cacaca;
+
+            +p {
+                color: #181818;
+                font-size: 22px;
+                font-weight: bold;
+            }
+        }
+        .profit {
+        }
+
+        .success {
+            color: #3d9e66; 
+        }
+
+        .failure {
+            color: #c1436e;
+        }
+    }
+}
