@@ -16,7 +16,6 @@ function App() {
         <section className={`${styles.content_container} col-sm-10`}>
           <DashboardOverview />
         </section>
-        fejhfjeknfk
       </div>
     </div>
   );
