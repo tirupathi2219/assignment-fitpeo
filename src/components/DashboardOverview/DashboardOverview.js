@@ -1,5 +1,7 @@
 import React from 'react';
 
+import SalesSection from '../DBSalesSection/SalesSection';
+
 import styles from './DashboardOverview.module.scss'
 
 export default function DashboardOverview() {
@@ -11,7 +13,7 @@ export default function DashboardOverview() {
     const handleBlur = () => {
         console.log('9== blur');
     }
-    const arr = [1,2,3,4,5]
+    const arr = [1, 2, 3, 4, 5]
     return (
         <>
             <header className={`d-flex justify-content-between`}>
@@ -23,21 +25,9 @@ export default function DashboardOverview() {
                     <i class="bi bi-search"></i>
                 </div>
             </header>
-            <div>
-                <div></div>
-                <div><table>
-                    <tr>
-                    {
-                        arr.map((item) => {
-                            return (
-                                <td>{item}</td>
-                                )
-                            })
-                        }
-                        </tr>
-                    </table></div>
-                <div></div>
-            </div>
+            <>
+                <SalesSection />
+            </>
         </>
     )
 }
