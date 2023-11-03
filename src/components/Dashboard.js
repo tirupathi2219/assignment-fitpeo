@@ -43,6 +43,7 @@ function Dashboard() {
           <i class="bi bi-chevron-right"></i>
         </div>
       </div>
+      <div className={`${styles.dashboard_footer_container}`}>
       <div className={`${styles.dashboard_footer}`}>
         <div className="d-flex">
           <img src={avatar} alt="Avatar" className={`${styles.avatar}`} />
@@ -52,6 +53,7 @@ function Dashboard() {
           </div>
         </div>
         <i class="bi bi-chevron-down"></i>
+      </div>
       </div>
     </div>
   );
