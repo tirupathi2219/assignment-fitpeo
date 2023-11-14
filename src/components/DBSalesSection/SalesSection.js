@@ -8,9 +8,9 @@ export default function SalesSection() {
         <div className={`${styles.sales_container}`}>
             {salesSection.map((item, index) => {
                 return (
-                    <div className={`${styles.sales_subContainer}`}>
+                    <div className={`${styles.sales_subContainer}`} key={index}>
                         <div className={`${styles.icon} ${styles[`icon${index}`]}`}>
-                            <i class={item.icon}></i>
+                            <i className={item.icon}></i>
                         </div>
                         <div>
                             <p className={`${styles.stName}`}>{item.status_name}</p>
@@ -19,8 +19,8 @@ export default function SalesSection() {
                                 <span className={`${item.status ? `${styles.success}` : `${styles.failure}`}`}>
                                     {
                                         item.status
-                                            ? <i class="bi bi-arrow-up"></i>
-                                            : <i class="bi bi-arrow-down"></i>
+                                            ? <i className="bi bi-arrow-up"></i>
+                                            : <i className="bi bi-arrow-down"></i>
                                     }
                                     {item.profit_percentage}
                                 </span>

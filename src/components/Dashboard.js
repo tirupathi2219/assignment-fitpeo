@@ -7,40 +7,40 @@ function Dashboard() {
   return (
     <div className={`${styles.main}`}>
       <div className={`${styles.dashboard_header}`}>
-        <i class="bi bi-nut"></i> <span>Dashboard</span>
+        <i className="bi bi-nut"></i> <span>Dashboard</span>
       </div>
       <div className={`${styles.navigation} d-flex flex-column  align-items-start`}>
 
-        <div><div><i class="bi bi-bank"></i>&nbsp; Dashboard</div></div>
+        <div><div><i className="bi bi-bank"></i>&nbsp; Dashboard</div></div>
         <div>
           <div>
-            <i class="bi bi-boxes"></i>&nbsp; Product
+            <i className="bi bi-boxes"></i>&nbsp; Product
           </div>
-          <i class="bi bi-chevron-right"></i>
+          <i className="bi bi-chevron-right"></i>
         </div>
         <div>
           <div>
-            <i class="bi bi-person-square"></i>&nbsp; Customers
+            <i className="bi bi-person-square"></i>&nbsp; Customers
           </div>
-          <i class="bi bi-chevron-right"></i>
+          <i className="bi bi-chevron-right"></i>
         </div>
         <div>
           <div>
-            <i class="bi bi-headset"></i>&nbsp; Income
+            <i className="bi bi-headset"></i>&nbsp; Income
           </div>
-          <i class="bi bi-chevron-right"></i>
+          <i className="bi bi-chevron-right"></i>
         </div>
         <div>
           <div>
-            <i class="bi bi-percent"></i>&nbsp; Promote
+            <i className="bi bi-percent"></i>&nbsp; Promote
           </div>
-          <i class="bi bi-chevron-right"></i>
+          <i className="bi bi-chevron-right"></i>
         </div>
         <div>
           <div>
-            <i class="bi bi-chat-square-quote"></i>&nbsp; Help
+            <i className="bi bi-chat-square-quote"></i>&nbsp; Help
           </div>
-          <i class="bi bi-chevron-right"></i>
+          <i className="bi bi-chevron-right"></i>
         </div>
       </div>
       <div className={`${styles.dashboard_footer_container}`}>
@@ -52,7 +52,7 @@ function Dashboard() {
             <p>Project Manager</p>
           </div>
         </div>
-        <i class="bi bi-chevron-down"></i>
+        <i className="bi bi-chevron-down"></i>
       </div>
       </div>
     </div>
