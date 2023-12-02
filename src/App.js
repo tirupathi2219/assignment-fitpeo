@@ -10,7 +10,7 @@ function handleClick () {
   
 }
   return (
-    <div className={`${styles.app} container-fluid`}>
+      <div className={`${styles.app} container-fluid`}>
       <div className={`row`} onClick={handleClick}>
         <section className={`${styles.navigation_container} col-sm-2`}>
           <Dashboard />
@@ -19,7 +19,7 @@ function handleClick () {
           <DashboardOverview />
         </section>
       </div>
-    </div>
+    </div>    
   );
 }
 
