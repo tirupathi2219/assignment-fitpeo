@@ -22,5 +22,6 @@ export const salesInfoData = [
         title: 'Total Sales',
         price: '$89k',
         growth: '11%',
+        nothing: 'has ann issue'
     }
 ]
