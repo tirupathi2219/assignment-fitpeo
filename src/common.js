@@ -4,7 +4,7 @@ export const salesInfoData = [
         title: 'Earning',
         price: '$198k',
         growth: '37.8%'
-    }, 
+    },
     {
         imgUrl: 'bi bi-journal-text',
         title: 'Orders',
@@ -21,6 +21,7 @@ export const salesInfoData = [
         imgUrl: 'bi bi-bag',
         title: 'Total Sales',
         price: '$89k',
-        growth: '11%'
+        growth: '11%',
+        nothing: 'has ann issue'
     }
 ]
