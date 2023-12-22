@@ -9,9 +9,6 @@ export default function DashboardOverview() {
         console.log('6== change');
     }
 
-    const handleBlur = () => {
-        console.log('9== blur');
-    }
     const arr = [1, 2, 3, 4, 5]
     return (
         <>
