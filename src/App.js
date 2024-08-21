@@ -4,6 +4,7 @@ import Dashboard from './components/Dashboard';
 import DashboardOverview from "./components/DashboardOverview/DashboardOverview";
 
 import styles from './App.module.scss'
+import { Outlet } from "react-router-dom";
 
 function App() {
 function handleClick () {
@@ -16,7 +17,7 @@ function handleClick () {
           <Dashboard />
         </section>
         <section className={`${styles.content_container} col-sm-10`}>
-          <DashboardOverview />
+          <Outlet/>
         </section>
       </div>
     </div>    

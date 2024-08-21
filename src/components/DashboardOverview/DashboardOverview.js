@@ -18,7 +18,7 @@ export default function DashboardOverview() {
         <>
             <header className={`d-flex justify-content-between`}>
                 <div>
-                    <h6>Welcome to my World KRC <i className="bi bi-emoji-smile"></i>,</h6>
+                    <h6>Hi, this Tirupathi Rao Kottisa.Have a look over my portfolio  <i className="bi bi-emoji-smile"></i>,</h6>
                 </div>
                 <div className={`${styles.search_container}`}>
                     <input type='text' placeholder='Search' onChange={handleChange} onBlur={handleBlur} />

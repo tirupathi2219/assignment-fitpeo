@@ -7,13 +7,21 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import "bootstrap/dist/js/bootstrap.bundle"
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import DashboardOverview from './components/DashboardOverview/DashboardOverview';
+import Projects from './components/Projects';
+import Skills from './components/Skills';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
   <BrowserRouter>
   <Routes>
-    <Route path='/' element={<App />} />
+    <Route path='/' element={<App />} >
+      <Route path='/' element={<DashboardOverview />} />
+      <Route path='/my-projects' element={<Projects />} />
+      <Route path='/skills' element={<Skills/>} />
+    </Route>
+
     {/* <Route path='/my-projects' element={<Projects/>} /> */}
   </Routes>
   </BrowserRouter>
