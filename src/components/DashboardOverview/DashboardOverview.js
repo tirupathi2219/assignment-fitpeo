@@ -3,6 +3,7 @@ import React from 'react';
 import SalesSection from '../DBSalesSection/SalesSection';
 
 import styles from './DashboardOverview.module.scss'
+import AgGridComponent from '../AgGridComponent';
 
 export const handleChange = () => {
     console.log('6== change');
@@ -28,6 +29,7 @@ export default function DashboardOverview() {
             <>
                 <SalesSection />
             </>
+            <AgGridComponent />
         </>
     )
 }
