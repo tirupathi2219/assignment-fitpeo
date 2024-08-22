@@ -21,31 +21,13 @@ function Dashboard() {
             </NavLink >
           </div>
           <div>
-            <NavLink to='/skills'>
+            <NavLink to='/contact'>
               <div>
-                <i className="bi bi-person-square"></i>&nbsp; Skills
+                <i className="bi bi-chat-square-quote"></i>&nbsp; Contact
                 <i className="bi bi-chevron-right"></i>
               </div>
 
             </NavLink>
-          </div>
-          <div>
-            <div>
-              <i className="bi bi-headset"></i>&nbsp; Income
-            </div>
-            <i className="bi bi-chevron-right"></i>
-          </div>
-          <div>
-            <div>
-              <i className="bi bi-percent"></i>&nbsp; Promote
-            </div>
-            <i className="bi bi-chevron-right"></i>
-          </div>
-          <div>
-            <div>
-              <i className="bi bi-chat-square-quote"></i>&nbsp; Contact
-            </div>
-            <i className="bi bi-chevron-right"></i>
           </div>
         </div>
 
@@ -54,8 +36,8 @@ function Dashboard() {
             <div className="d-flex">
               <img src={avatar} alt="Avatar" className={`${styles.avatar}`} />
               <div className={`${styles.avatar_info}`}>
-                <h6>Evano</h6>
-                <p>Project Manager</p>
+                <h6>Tirupathi Rao</h6>
+                <p>ReactJs Developer</p>
               </div>
             </div>
             <i className="bi bi-chevron-down"></i>
